@@ -1,0 +1,80 @@
+.table-wrapper {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  min-width: 900px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 16px;
+  text-align: left;
+  color: white;
+}
+
+th {
+  background: #0f172a;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:first-child {
+  background: #3b82f6;
+  color: white;
+}
+
+button:last-child {
+  background: #ef4444;
+  color: white;
+}
+
+/* ===========================
+   Desktop
+=========================== */
+
+.mobile-cards {
+  display: none;
+  margin-top: 30px;
+}
+
+.player-card {
+  display: none;
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width: 600px) {
+
+  .table-wrapper {
+    display: none;
+  }
+
+  .mobile-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .player-card {
+    display: block;
+  }
+}
