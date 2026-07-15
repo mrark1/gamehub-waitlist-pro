@@ -291,9 +291,7 @@ http://localhost:5173
 
 🎓 B.Tech CSE (AI & ML)
 
-🏫 Kanpur Institute of Technology
-
-💼 Summer Engineering Intern @ Prodesk IT
+🏫 Kanpur Institute of Technology , Kanpur
 
 ---
 
